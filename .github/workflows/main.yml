@@ -17,4 +17,5 @@ jobs:
         username: ${{ secrets.SSH_USER }}
         key: ${{ secrets.SSH_KEY }}
         script: |
-                    bash /opt/parsing_test/update.sh
+                    cd /opt/parsing_test/
+                    git pull
