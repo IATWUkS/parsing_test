@@ -38,7 +38,7 @@ def handle_zip_file(path):
             json_payload = json.load(templates)
             handle_json(json_payload, filename)
 
-# GitHub action test
+# GitHub action test 2
 if __name__ == '__main__':
     # Создает таблицу в базе, если её нет
     create_table()
