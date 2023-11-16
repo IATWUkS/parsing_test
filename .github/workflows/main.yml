@@ -10,7 +10,7 @@ jobs:
     steps:
     - name: checkout
       uses: actions/checkout@v3
-    - name: executing remote ssh commands using password
+    - name: executing remote ssh commands using
       uses: appleboy/ssh-action@master
       with:
         host: ${{ secrets.SSH_HOST }}
