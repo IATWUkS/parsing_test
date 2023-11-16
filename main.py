@@ -38,7 +38,7 @@ def handle_zip_file(path):
             json_payload = json.load(templates)
             handle_json(json_payload, filename)
 
-# test 12356
+# test test
 if __name__ == '__main__':
     # Создает таблицу в базе, если её нет
     create_table()
